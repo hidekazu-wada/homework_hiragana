@@ -1,0 +1,19 @@
+@import "reset";
+
+body {
+    text-align: center;
+    padding: 40px;
+}
+#click {
+    border: solid 1px black;
+    padding: 0.5em 1em;
+    margin-bottom: 40px;
+}
+#anser {
+    li {
+        margin-bottom: 0.5em;
+        &.completed {
+            color: red;
+        }
+    }
+}
